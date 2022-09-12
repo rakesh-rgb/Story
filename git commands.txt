@@ -1,0 +1,20 @@
+HELLO TO THE GIT LEARNING PATH!!
+
+commands 
+
+git init                      //initilise git
+git add chapter1.txt             // add file to staging area
+git add .                    // add all file to staging area
+git status                    // to see status of files in git
+git commit -m "Message here"       // to comit changes in file
+git log                // to see all the changes nd git versions bla bla
+git diff --fileName--  // to see difference between new and old file
+git checkout --fileName--- // to restore a file to its previous glory
+git rm --cached -r .   // remove all file from staging area
+
+
+
+********************************************GIT HUB*************************************************
+
+git remote add origin <--https://github.com/rakesh-rgb/Story.git  {address of remote repository}-->   // create remote of name origin
+git push -u origin master   // push local reposotory of name origin branch name master to github
